@@ -112,7 +112,7 @@ body{
 	font-weight: 400;
 	font-size: 12px;
 	color: #416c80;
-	overflow-y: scroll;
+	overflow-y: hidden;
 	overflow-x: hidden;
 	-webkit-user-select:none;
 	-moz-user-select: none;
