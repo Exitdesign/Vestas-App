@@ -306,7 +306,21 @@ footer a:hover{
 
 
 /* Media Queries */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
+	body{
+		font-family: 'VestasSans-Standard081107', Constantia, Palatino, Georgia, serif;
+		background: #f8f8f8 url(../images/bg.jpg) repeat top left;
+		font-weight: 400;
+		font-size: 12px;
+		color: #416c80;
+		overflow-y: hidden;
+		overflow-x: hidden;
+		-webkit-user-select:none;
+		-moz-user-select: none;
+	}
+	.ie7 body{
+		overflow:hidden;
+	}
 	.container_buttons{
 		width: 90%;
 		min-width: 600px;
@@ -320,7 +334,21 @@ footer a:hover{
 	}
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800x) {
+	body{
+		font-family: 'VestasSans-Standard081107', Constantia, Palatino, Georgia, serif;
+		background: #f8f8f8 url(../images/bg.jpg) repeat top left;
+		font-weight: 400;
+		font-size: 12px;
+		color: #416c80;
+		overflow-y: hidden;
+		overflow-x: hidden;
+		-webkit-user-select:none;
+		-moz-user-select: none;
+	}
+	.ie7 body{
+		overflow:hidden;
+	}
 	.container_buttons{
 		width: 80%;
 		min-width: 300px;
