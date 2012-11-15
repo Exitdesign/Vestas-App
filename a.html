@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Vestas® We Power the future</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="CSS buttons with pseudo-elements" />
+        <meta name="keywords" content="css, css3, pseudo, buttons, anchor, before, after, web design" />
+        <meta name="author" content="Sergio Camalich for Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style1.css" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		
+		<script type="text/javascript" src="css/jquery-1.4.1.js"></script>
+		<script type="text/javascript" src="css/jquery.counter.js" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/jquery.counter-analog.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.counter-analog2.css" />
+    </head>
+<body>
+    <h1>Event counterStop</h1>
+    <pre>
+    <script>
+    $('.counter').on('counterStop', function() {
+        //code
+        alert("Hey");
+    });
+    </script>
+    </pre>
+    <script>
+        $('.counter').counter();
+        $('#custom').addClass('counter-analog').counter({
+            initial: '0:00.0',
+            direction: 'up',
+            interval: '1',
+            format: '9999',
+            stop: '2012'
+        });
+    </script>
+</body>
+</html>
